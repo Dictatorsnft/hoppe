@@ -1,0 +1,67 @@
+---
+title: "Authenticate"
+api: "GET https://api.hoppe.app/api/authenticate"
+description: "This endpoint helps you authenticate your token and login to Hoppe Config Wizard."
+---
+
+### Body
+
+<ParamField body="api_token" type="string">
+  This is the current api-token provided to you by our team. Make sure to verify. Please enter and authenticate to continue.
+</ParamField>
+
+### Response
+
+<ResponseField name="success" type="number">
+  Indicates whether the authentication was successful. Would redirect you to configuration wizard if successful. 0 if fails.
+</ResponseField>
+
+<ResponseField name="user_group" type="object">
+
+The contents of the authntication token
+
+<Expandable title="Toggle object">
+
+<ResponseField name="team_id" type="number">
+  This is the project ID for the user. You don't need to record this
+  information, since you will not need to use it.
+</ResponseField>
+
+<ResponseField name="token" type="string">
+  This is the user token expiration date (userTokenExpiration or USER_TOKEN_Expiration) that is the time in future when your config wizard token expires.
+</ResponseField>
+
+
+
+</Expandable>
+
+</ResponseField>
+
+<RequestExample>
+
+```bash Example Request
+curl --location --request AUTHENTICATE 'https://api.hoppe.app/api/authenticate' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Token <token>' \
+--data-raw '{
+    "api_token": ""
+}'
+```
+
+</RequestExample>
+
+<ResponseExample>
+
+```json Response
+{
+  "success": functions.redirect,
+  "user_group": {
+    "team_id": 3,
+    "token": "<user_group_token_to_auth_configwiard>",
+    "name": "1",
+    "provided_id": "1"
+  }
+}
+```
+
+</ResponseExample>
