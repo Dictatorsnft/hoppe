@@ -26,47 +26,50 @@ Learn how to start arbitraging your funds on Hoppe.
 
 <AccordionGroup>
 
-<Accordion icon="message-bot" title="Purchase USDC ">
-  Hoppe operates on a stable asset 'USDC' to ensure consistent profitability amidst the unpredictable crypto markets. To get started, either acquire USDC from a CEX and transfer it to your Defi Wallet, or swap your ETH, SOL, or BNB to USDC within your Defi wallet.
+<Accordion icon="coins" title="Purchase USDC ">
+  Hoppe operates on a stable asset ```USDC``` to ensure consistent profitability amidst the unpredictable crypto markets. To get started, either acquire USDC from a CEX and transfer it to your Defi Wallet, or swap your ETH, SOL, or BNB to USDC within your Defi wallet.
 </Accordion>
 <Accordion icon="rocket" title="Transfer USDC to Hoppe Account">
-Once you are inside Hoppe App, click next to your username in top bar to connect your Defi wallet to our app. Once connected you would need to deposit USDC to your account in order to fund your arbitrage position in next step.
+Once you are inside Hoppe App, click next to your username in top bar to connect your Defi wallet to our app. Once connected you would need to deposit ```USDC``` to your account in order to fund your arbitrage position in next step.
 </Accordion>
 
 </AccordionGroup>
 
-## Update your docs
+### Open Arbitrage Position
 
-Add content directly in your files with MDX syntax and React components. You can use any of our components, or even build your own.
+<AccordionGroup>
 
-<CardGroup>
+<Accordion icon="coins" title="Select Arbitrage Type">
+  Go to Arbitrage page and choose between ```Daily``` and ```Compound``` Arbitrage, depending on your investment strategy and preferred lock-up period.
+</Accordion>
+<Accordion icon="rocket" title="Make Your Investment">
+Choose the amount you wish to allocate to your arbitrage position and verify the expected daily profits. Click ```Open Position``` to open your arbitrage position.
+</Accordion>
 
-<Card title="Style Your Docs" icon="paintbrush" href="/settings/global">
-  Add flair to your docs with personalized branding.
-</Card>
+</AccordionGroup>
 
-<Card
-  title="Add API Endpoints"
-  icon="square-code"
-  href="/api-playground/configuration"
->
-  Implement your OpenAPI spec and enable API user interaction.
-</Card>
 
-<Card
-  title="Integrate Analytics"
-  icon="chart-mixed"
-  href="/analytics/supported-integrations"
->
-  Draw insights from user interactions with your documentation.
-</Card>
+## Managing Your Positions
 
-<Card
-  title="Host on a Custom Domain"
-  icon="browser"
-  href="/settings/custom-domain/subdomain"
->
-  Keep your docs on your own website's subdomain.
-</Card>
+### Monitor Your Investment
 
-</CardGroup>
+Once your investment is in place, you'll see an overview of your investment performance on your dashboard.
+
+### Inspect Daily Profit
+
+Enjoy the flexibility of withdrawing your profits whenever you like depending upon to the type of Arbitrage you choose. Simply initiate a withdrawal request, and your funds will be transferred to your connected wallet.
+
+### Make Your Withdrawals
+
+Your profits will be automatically calculated and credited to your account daily. Keep an eye on your growing balance.
+
+<AccordionGroup>
+
+<Accordion icon="coins" title="Basic Arbitrage">
+Your ```fixed profits``` are sent back to your account on daily bases.
+</Accordion>
+<Accordion icon="rocket" title="Compound Arbitrage">
+If you've selected Compound Arbitrage, your investment will be locked inside the bot and would automatically increase on daily bases as profits are reinvested during the lock-up period hence providing ```profit incrementation``` and will be withdrawn to your account once you have reached position expiration date.
+</Accordion>
+
+</AccordionGroup>

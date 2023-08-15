@@ -21,8 +21,8 @@
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Community",
+      "url": "https://discord.gg/hoppe"
     }
   ],
   "topbarCtaButton": {
@@ -39,27 +39,27 @@
     {
       "name": "Documentation",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://docs.hoppe.app"
     },
     {
       "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "icon": "discord",
+      "url": "https://discord.gg/hoppe"
     },
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://hoppe.app/blog"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development", "FAQs", "Community & Support"]
+      "pages": ["introduction", "quickstart", "FAQs", "Community & Support", "plans"]
     },
     {
       "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
+      "pages": ["essentials/basics", "essentials/infrastructure"]
     },
     {
       "group": "Config Wizard",
@@ -74,7 +74,7 @@
   ],
   "footerSocials": {
     "twitter": "https://twitter.com/hoppearbitrage",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "github": "https://github.com/hoppe",
+    "linkedin": "https://www.linkedin.com/company/hoppe"
   }
 }
