@@ -44,7 +44,7 @@
     {
       "name": "Community",
       "icon": "discord",
-      "url": "https://discord.gg/hoppe"
+      "url": "https://discord.gg/Jam6JufY5D"
     },
     {
       "name": "Blog",
@@ -59,7 +59,7 @@
     },
     {
       "group": "Essentials",
-      "pages": ["essentials/basics", "essentials/infrastructure"]
+      "pages": ["essentials/basics", "essentials/infrastructure", "essentials/tos"]
     },
     {
       "group": "Config Wizard",
